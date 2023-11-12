@@ -30,13 +30,15 @@ header{
 	padding: 10px 0 10px 30px;
 }
 
+
+
 section {
 	margin-top:80px;
 	padding:60px 0;
 	overflow:hidden;
 }
 h2{
-	color: #6197DB;
+	color: darkblue;
 	font-family: 'Lato', sans-serif;
 }
 p{
@@ -119,3 +121,20 @@ h4{
 	scale:1.05;
 }
 
+@media (max-width: 800px){
+	.card1{
+		margin-top: 30px;
+	}
+}
+.graph-box{
+	margin-top: 25px;
+}
+.piechart{
+	width: 80% !important;
+	height: auto !important;
+	margin: auto !important;
+}
+}
+.aboutimg{
+	border-radius: 20px;
+}
